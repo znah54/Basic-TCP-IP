@@ -10,3 +10,5 @@
 
 - IP란?? => Internet Protocol 인터넷에 연결되어 있는 모든 장치들을 식별할 수 있도록 각 장비에 부여되는 고유주소!
     - IPv4, IPv6, Subnet Mask, Gateway, DNS
+ 
+  ![TCP001](https://github.com/znah54/Basic-TCP-IP/assets/50408406/88cb4cb9-64bd-46b6-aa3b-2437f778759c)
