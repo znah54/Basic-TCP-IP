@@ -22,5 +22,9 @@
 - 프로토콜(Protocol) => 대화에 필요한 통신규약
     - PF_INET = IPv4 인터넷 프로토콜 체계! <사실상 이것만 알면 됨>
 
+- 소켓(Socket)
+    - TYPE 
+        - 연결지향형 소켓(SOCK_STREAM)
+        - 비 연결지향형 소켓(SOCK_DGRAM)
  
 
