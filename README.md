@@ -35,3 +35,4 @@
     - TCP/UDP 계층 - 전송계층으로 위의 TCP와 UDP의 차이로 설명가능
 
 <img src=https://github.com/znah54/Basic-TCP-IP/blob/main/images/TCP002.png>
+
