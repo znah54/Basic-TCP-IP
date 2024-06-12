@@ -33,4 +33,5 @@
     - LINK 계층 - LAN, WAN, MAN 프로토콜 정의 영역
     - IP 계층 - 비 연결지향적 신뢰할 수 없는 프로토콜, 데이터를 전송할 때마다 거쳐야 할 경오를 선택, 그 경로는 일정치 않음
     - TCP/UDP 계층 - 전송계층으로 위의 TCP와 UDP의 차이로 설명가능
-    
+
+<img src=https://github.com/znah54/Basic-TCP-IP/blob/main/images/TCP002.png>
