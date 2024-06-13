@@ -36,3 +36,29 @@
 
 <img src=https://github.com/znah54/Basic-TCP-IP/blob/main/images/TCP002.png>
 
+
+## 3일차
+
+- TCP 기반 Half-close
+    - TCP에서는 연결과정보다 중요한 것은 종료과정 
+    - Half-close
+    1) 일반종료
+    2) 완전종료
+
+- 소켓, 스트림
+    - 스트림 : 송수신이 가능한 상태를 일종의 스트림, 물의 흐름
+    - 소켓 : 양한쪽 방햐응로만 데이터 이동 가능
+    - 즉 양방햐을 위해서는 두개의 스트림이 필요함
+
+- DNS(Domain Name System)
+
+<img src=https://github.com/znah54/Basic-TCP-IP/blob/main/images/TCP003.png>
+
+
+- 소켓의 다양한 옵션
+
+<img src=https://github.com/znah54/Basic-TCP-IP/blob/main/images/TCP004.png>
+
+- 프로세스 : 컴퓨터에서 실행중인 프로그램
+
+
