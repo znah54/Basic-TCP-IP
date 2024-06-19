@@ -50,6 +50,18 @@
     - 소켓 : 양한쪽 방햐응로만 데이터 이동 가능
     - 즉 양방햐을 위해서는 두개의 스트림이 필요함
 
+- 연결지향형 소켓(SOCK_STREAM)의 데이터 전송 특성 
+    - 중간에 데이터 소멸되지 않는다. 
+    - 전송 순서대로 데이터가 수신된다. 
+    - 데이터의 경계가 존재하지 않는다. 
+    - 소켓 대 소켓의 연결은 반드시 1대 1의 구조.
+- 비 연결지향형 소켓(SOCK_DGRAM)의 데이터 전송특성 
+    - 전송순서 상관없이 빠른 속도의 전송을 지향 
+    - 데이터 손실 및 파손의 우려있다. 
+    - 데이터의 경계가 존재한다. 
+    - 한번에 전송할 수 있는 데이터의 크기가 제한된다.
+
+
 - DNS(Domain Name System)
 
 <img src=https://github.com/znah54/Basic-TCP-IP/blob/main/images/TCP003.png>
@@ -90,4 +102,12 @@
 ## 시험
 - 웹페이지 구성(라즈베리 파이, 사진 케릭터 그런 사진 하나 다운로드 띄워보기) - 단순접속 멀티프로세스 사용한다던지, 멀티 플렉싱, 멀티 쓰레드 서버 동작시키기 인터넷 통해서 주소창 라즈베리 통해 들어가니 웹서버 구현
 
+char webpage[] = "HTTP/1.1 200 OK\r\n"
+			"Server:Linux Web Server\r\n"
+			"Content-Type: text/htm; charset=UTF-8\r\n\r\n"
+            "<!DOCTYPE html>\r\n"
+            "<html><head><title> My Web Page </title>\r\n"
+            "<style>body {background-color: #FFFF00}</style><head>\r\n"
+            "<body><center><h1>Hello world!!</h1><br>\r\n"
+            "<img src=\"cat.jpg\"></center></body></html>\r\n"
 
